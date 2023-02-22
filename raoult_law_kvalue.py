@@ -48,8 +48,8 @@ if __name__ == '__main__':
     P = 101325  # Pressure in Pa
 
     # We should update this example! Units of test not consistent with NIST
-    propane = [6.80398, 803.810,  246.990]
-    benzene = [6.90565, 1211.033, 220.79 ]
+    propane = [6.80398, 1149.36, 24.906] #this is for a temperature range of 277.6-360.8 K
+    benzene = [4.53678, 1211.033, 220.79 ]
     antoineCoefs = np.array( [propane, benzene] )
 
     z = 0.5
