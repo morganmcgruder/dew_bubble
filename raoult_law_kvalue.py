@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
     # We should update this example! Units of test not consistent with NIST
     propane = [6.80398, 803.810,  246.990]
-    benzene = [6.90565, 1211.033, 220.79 ]
+    benzene = [4.72583, 1660.652, -1.461]
     antoineCoefs = np.array( [propane, benzene] )
 
     z = 0.5
